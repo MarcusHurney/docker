@@ -1,0 +1,8 @@
+version: '3'
+services:
+  app:
+    image: mjuice90/newest-node-app:latest
+    env_file:
+      - .env
+    ports:
+      - 49160:8080
